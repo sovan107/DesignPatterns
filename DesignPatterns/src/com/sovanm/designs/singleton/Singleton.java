@@ -34,7 +34,6 @@ class SingletonClass {
 			}
 		}
 		
-//		return new SingletonClass();
 		return instance;
 	}
 	

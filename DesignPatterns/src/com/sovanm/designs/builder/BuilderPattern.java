@@ -2,6 +2,15 @@ package com.sovanm.designs.builder;
 
 /**
  * This demo will show the pizza ordering example in a restaurant
+ * 
+ * This will have a controller which will command the builder to build something. - waiter
+ * 
+ * The controller decides (or receive instructions from client) to build, and as per the requirement,
+ * calls for the respective builder. (SpicyPizzaBuilder)
+ * 
+ * The builder concrete class will implements an interface which defines the process that builder has to 
+ * follow and returns the required stuff. 
+ * 
  *  
  * */
 public class BuilderPattern {
